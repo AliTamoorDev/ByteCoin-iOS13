@@ -14,10 +14,12 @@
 		ADA8AC122329367300626376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA8AC112329367300626376 /* Assets.xcassets */; };
 		ADA8AC152329367300626376 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA8AC132329367300626376 /* LaunchScreen.storyboard */; };
 		ADA8AC202329398300626376 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC1F2329398300626376 /* CoinManager.swift */; };
+		DC73F6172804442200B0D0E4 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC73F6162804442200B0D0E4 /* CoinData.swift */; };
+		DC73F6192805497900B0D0E4 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC73F6182805497900B0D0E4 /* CoinModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ADA8AC052329367100626376 /* ByteCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByteCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA8AC052329367100626376 /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA8AC082329367100626376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADA8AC0A2329367100626376 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ADA8AC0C2329367100626376 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		ADA8AC142329367300626376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADA8AC162329367300626376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADA8AC1F2329398300626376 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		DC73F6162804442200B0D0E4 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		DC73F6182805497900B0D0E4 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +46,7 @@
 		ADA8ABFC2329367100626376 = {
 			isa = PBXGroup;
 			children = (
-				ADA8AC072329367100626376 /* ByteCoin */,
+				ADA8AC072329367100626376 /* CurrencyConverter */,
 				ADA8AC062329367100626376 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +54,12 @@
 		ADA8AC062329367100626376 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADA8AC052329367100626376 /* ByteCoin.app */,
+				ADA8AC052329367100626376 /* CurrencyConverter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ADA8AC072329367100626376 /* ByteCoin */ = {
+		ADA8AC072329367100626376 /* CurrencyConverter */ = {
 			isa = PBXGroup;
 			children = (
 				ADA8AC082329367100626376 /* AppDelegate.swift */,
@@ -67,7 +71,7 @@
 				ADA8AC132329367300626376 /* LaunchScreen.storyboard */,
 				ADA8AC162329367300626376 /* Info.plist */,
 			);
-			path = ByteCoin;
+			path = CurrencyConverter;
 			sourceTree = "<group>";
 		};
 		ADA8AC1C232936FE00626376 /* View */ = {
@@ -90,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				ADA8AC1F2329398300626376 /* CoinManager.swift */,
+				DC73F6162804442200B0D0E4 /* CoinData.swift */,
+				DC73F6182805497900B0D0E4 /* CoinModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -97,9 +103,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ADA8AC042329367100626376 /* ByteCoin */ = {
+		ADA8AC042329367100626376 /* CurrencyConverter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADA8AC192329367300626376 /* Build configuration list for PBXNativeTarget "ByteCoin" */;
+			buildConfigurationList = ADA8AC192329367300626376 /* Build configuration list for PBXNativeTarget "CurrencyConverter" */;
 			buildPhases = (
 				ADA8AC012329367100626376 /* Sources */,
 				ADA8AC022329367100626376 /* Frameworks */,
@@ -109,9 +115,9 @@
 			);
 			dependencies = (
 			);
-			name = ByteCoin;
+			name = CurrencyConverter;
 			productName = ByteCoin;
-			productReference = ADA8AC052329367100626376 /* ByteCoin.app */;
+			productReference = ADA8AC052329367100626376 /* CurrencyConverter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ADA8AC002329367100626376 /* Build configuration list for PBXProject "ByteCoin" */;
+			buildConfigurationList = ADA8AC002329367100626376 /* Build configuration list for PBXProject "CurrencyConverter" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADA8AC042329367100626376 /* ByteCoin */,
+				ADA8AC042329367100626376 /* CurrencyConverter */,
 			);
 		};
 /* End PBXProject section */
@@ -167,7 +173,9 @@
 			files = (
 				ADA8AC202329398300626376 /* CoinManager.swift in Sources */,
 				ADA8AC0D2329367100626376 /* ViewController.swift in Sources */,
+				DC73F6172804442200B0D0E4 /* CoinData.swift in Sources */,
 				ADA8AC092329367100626376 /* AppDelegate.swift in Sources */,
+				DC73F6192805497900B0D0E4 /* CoinModel.swift in Sources */,
 				ADA8AC0B2329367100626376 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CurrencyConverter/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -298,6 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CurrencyConverter/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -314,12 +324,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ECFYJZ64T;
-				INFOPLIST_FILE = ByteCoin/Info.plist;
+				INFOPLIST_FILE = CurrencyConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.ByteCoin;
+				PRODUCT_BUNDLE_IDENTIFIER = co.atamoor.CurrencyConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,12 +342,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ECFYJZ64T;
-				INFOPLIST_FILE = ByteCoin/Info.plist;
+				INFOPLIST_FILE = CurrencyConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.ByteCoin;
+				PRODUCT_BUNDLE_IDENTIFIER = co.atamoor.CurrencyConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -347,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ADA8AC002329367100626376 /* Build configuration list for PBXProject "ByteCoin" */ = {
+		ADA8AC002329367100626376 /* Build configuration list for PBXProject "CurrencyConverter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADA8AC172329367300626376 /* Debug */,
@@ -356,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADA8AC192329367300626376 /* Build configuration list for PBXNativeTarget "ByteCoin" */ = {
+		ADA8AC192329367300626376 /* Build configuration list for PBXNativeTarget "CurrencyConverter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADA8AC1A2329367300626376 /* Debug */,

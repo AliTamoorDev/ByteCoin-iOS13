@@ -1,10 +1,8 @@
 //
-//  SceneDelegate.swift
+//  CoinManager.swift
 //  ByteCoin
-//
-//  Created by Angela Yu on 11/09/2019.
-//  Copyright © 2019 The App Brewery. All rights reserved.
-//
+
+//  Created by Ali Tamoor on 11/04/2022
 
 import UIKit
 
